@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-model = load(open("/workspaces/streamlit-Web-ML/src/decision_tree_classifier_default_42.sav", "rb"))
+model = load(open("decision_tree_classifier_default_42.sav", "rb"))
 class_dict = {
     "0": "Sin diabetes",
     "1": "Diabetes",
